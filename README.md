@@ -1,4 +1,4 @@
-# vue-bbs
+# vue-chat
 
 ## Project setup
 ```
