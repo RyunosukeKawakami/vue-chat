@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # vuechat
+=======
+# vue-chat
+>>>>>>> 76ed4091af43977c324a26bd8827bfd565dd190d
 
 ## Project setup
 ```
