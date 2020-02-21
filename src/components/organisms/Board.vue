@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import BoardCard from "@/components/Atoms/BoardCard.vue"
+import BoardCard from "@/components/atoms/BoardCard.vue"
 
 export default {
     components:{

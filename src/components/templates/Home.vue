@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Navigation from "@/components/Organisms/Navigation.vue"
-import Channel from "@/components/Organisms/Channel.vue"
-import Board from "@/components/Organisms/Board.vue"
+import Navigation from "@/components/organisms/Navigation.vue"
+import Channel from "@/components/organisms/Channel.vue"
+import Board from "@/components/organisms/Board.vue"
 
 export default {
     name: "Home",
