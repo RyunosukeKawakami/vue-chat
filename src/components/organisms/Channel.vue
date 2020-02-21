@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ChannelItem from "@/components/Atoms/ChannelItem.vue"
+import ChannelItem from "@/components/atoms/ChannelItem.vue"
 
 export default {
     components:{

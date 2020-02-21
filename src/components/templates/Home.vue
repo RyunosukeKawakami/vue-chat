@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import Navigation from "@/components/Organisms/Navigation.vue"
-import Channel from "@/components/Organisms/Channel.vue"
-import Board from "@/components/Organisms/Board.vue"
-import Member from "@/components/Organisms/Member.vue"
+import Navigation from "@/components/organisms/Navigation.vue"
+import Channel from "@/components/organisms/Channel.vue"
+import Board from "@/components/organisms/Board.vue"
+import Member from "@/components/organisms/Member.vue"
 
 export default {
     name: "Home",
