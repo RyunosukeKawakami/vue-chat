@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import NavItem from "../Atoms/NavItem.vue"
+import NavItem from "../atoms/NavItem.vue"
 
 class NavItemObj{
     constructor(id, name, activity, url){
