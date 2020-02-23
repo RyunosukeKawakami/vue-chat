@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <h2><slot></slot></h2>
-    </div>
+    <a href="#" class="list-group-item list-group-item-action">Member</a>
 </template>
 
 <script>
