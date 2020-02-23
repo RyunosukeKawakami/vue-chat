@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <post-text-area class="col-sm-10"></post-text-area>
-        <post-button class="col-sm-2t"></post-button>
+        <post-button class="col-sm-2"></post-button>
     </div>
 </template>
 
