@@ -1,16 +1,16 @@
 <template>
-  <li class="nav-item">
-    <a class="nav-link text-light" :class="activity" :href="url">
+  <b-nav-item class="nav-item" :active="isActive" :href="url">
+    <a class="nav-link text-light p-0 text-right" >
       {{name}}
     </a>
-  </li>
+  </b-nav-item>
 </template>
 
 <script>
 export default {
   props:[
     "name",
-    "activity",
+    "isActive",
     "url"
   ],
 }
