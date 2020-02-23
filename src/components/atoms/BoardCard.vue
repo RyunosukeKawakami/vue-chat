@@ -1,9 +1,11 @@
 <template>
     <div class="col-sm-9">
-        <div class="card card-body shadow-sm text-left mt-sm-3 border p-2">
-            <h6 class="card-title">製作者名</h6>
-            <p class="card-text">メッセージの本文</p>
-        </div>
+        <b-card class="text-left shadow-sm mb-sm-3 border" body-class="p-2">
+            <b-card-body class="p-0">
+            <b-card-title title-tag="h6">製作者名</b-card-title>
+                メッセージの本文
+            </b-card-body>
+        </b-card>
     </div>
 </template>
 
@@ -14,5 +16,7 @@ export default {
 </script>
 
 <style>
-
+b-card{
+    
+}
 </style>
