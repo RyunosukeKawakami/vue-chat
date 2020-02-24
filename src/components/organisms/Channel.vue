@@ -1,10 +1,10 @@
 <template>
 <div>
     <organism-title>Channel</organism-title>
-    <div class="list-group">
-        <channel-item></channel-item>
+    <div v-for="Channel in ChannelList" :key="Channel.id">
+        <channel-item :name="Channel.name"></channel-item>
     </div>
-    <modal></modal>
+    <modal @UpdateChannelList="TakeChannelList"></modal>
 </div>
 </template>
 
@@ -14,6 +14,17 @@ import Modal from "@/components/molecules/ChannelCreateModal.vue"
 import OrganismTitle from "@/components/atoms/OrganismTitle.vue"
 
 export default {
+    data(){
+        return{
+            ChannelList:[]
+        }
+    },
+    methods:{
+        TakeChannelList(ChannelList){
+            this.ChannelList = ChannelList;
+            console.log("Heoooo");
+        }
+    },
     components:{
         ChannelItem,
         OrganismTitle,
